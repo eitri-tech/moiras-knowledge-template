@@ -3,7 +3,7 @@ id: PROJ-123-1
 type: solution
 issue: PROJ-123
 created_at: AAAA-MM-DD
-chosen_by: <pessoa que escolheu na triagem>
+chosen_by: <pseudônimo não identificável escolhido pela pessoa, no formato <prefixo>-<id> (ex. reviewer-01); nunca nome real, e-mail ou identificador de conta>
 agency:
 repositories: [acme-shop-checkout]
 component: checkout
