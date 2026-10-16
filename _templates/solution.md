@@ -1,16 +1,15 @@
 ---
 id: PROJ-123-1
-tipo: solucao
+type: solution
 issue: PROJ-123
-repositorios: [acme-shop-checkout]
-componente: checkout
-categoria: bug
-confianca: 70
-resultado: pendente | resolveu | nao-resolveu
-observacao:
-escolhida_em: AAAA-MM-DD
-referencias:
-  - acme-shop-checkout/src/views/checkout/Cart.tsx@<commit>
+created_at: AAAA-MM-DD
+chosen_by: <pessoa que escolheu na triagem>
+agency:
+repositories: [acme-shop-checkout]
+component: checkout
+category: bug
+confidence: 70
+result: pending | resolved | not-resolved
 ---
 
 # Manter o orderFormId na troca de seller
@@ -21,4 +20,10 @@ referencias:
 
 **Solução:** reaproveitar o `orderFormId` ao trocar de seller.
 
-**Alternativas descartadas:** recriar o carrinho e reaplicar os itens (45%).
+**Riscos:** itens de sellers diferentes no mesmo carrinho.
+
+**Alternativas descartadas:** recriar o carrinho e reaplicar os itens (45).
+
+**Fontes:** `acme-shop-checkout/src/views/checkout/Cart.tsx@<commit>`
+
+**Observação:**

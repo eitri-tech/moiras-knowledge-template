@@ -21,7 +21,7 @@ As Moiras sempre trabalham com o knowledge local. Os repositórios de knowledge 
 | Pasta | Conteúdo | Quem escreve | Regra |
 |---|---|---|---|
 | `glossary/` | Glossário de repositórios: um arquivo por repositório, com localização e metadados | `moiras-index` | Derivado do código; pode ser regenerado a qualquer momento |
-| `criteria/` | Regras de classificação e de decisão | as Moiras, com o "sim" de quem está triando | Um arquivo por critério; critérios conflitantes são unidos num só, regenerado |
+| `criteria/` | Regras de classificação e de decisão | as Moiras, com o "sim" de quem está triando ou audita (`moiras-audit`) | Um arquivo por critério; critérios conflitantes são unidos num só, regenerado |
 | `learnings/solutions/` | Soluções escolhidas e o resultado delas | Átropos | Só acréscimo; um arquivo por registro |
 | `learnings/patterns/` | Padrões de problema recorrentes | Láquesis / Átropos | Só acréscimo; um arquivo por registro |
 | `learnings/decisions/` | Decisões que valem para casos futuros | as Moiras, a partir de soluções que funcionaram | Só acréscimo; um arquivo por registro |
@@ -39,4 +39,5 @@ Os modelos (`_templates/`) usam nomes fictícios (`acme-shop-checkout`, `PROJ-12
 
 1. `moiras-sync` (opcional, sugerido): traz o que foi mergeado aqui para o knowledge local. Só traz, nunca envia.
 2. As Moiras triam e aprendem localmente; `moiras-index` atualiza o glossário quando um repositório novo aparece.
-3. `moiras-publish`: abre um PR aqui com o que é novo. Nunca faz push direto na `main` e nunca faz merge sozinho.
+3. `moiras-audit` (quando alguém for revisar): aponta registros velhos, pendentes ou conflitantes e aplica ajustes só com o "sim" de quem audita. Altera o knowledge local; para levar o ajuste para cá, siga para o passo 4.
+4. `moiras-publish`: abre um PR aqui com o que é novo. Nunca faz push direto na `main` e nunca faz merge sozinho.

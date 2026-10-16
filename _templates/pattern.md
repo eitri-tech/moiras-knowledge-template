@@ -1,10 +1,10 @@
 ---
 id: carrinho-perde-itens-troca-seller
-tipo: padrao
-repositorios: [acme-shop-checkout]
-componente: checkout
+type: pattern
+created_at: AAAA-MM-DD
+repositories: [acme-shop-checkout]
+component: checkout
 issues: [PROJ-123, PROJ-187]
-criado_em: AAAA-MM-DD
 ---
 
 # Carrinho perde itens ao trocar de seller

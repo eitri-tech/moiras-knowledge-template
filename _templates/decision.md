@@ -1,8 +1,8 @@
 ---
 id: orderform-unico-por-sessao
-tipo: decisao
-origem: [PROJ-123-1, PROJ-187-1]
-decidido_em: AAAA-MM-DD
+type: decision
+created_at: AAAA-MM-DD
+source: [PROJ-123-1, PROJ-187-1]
 ---
 
 # Um orderForm por sessão
