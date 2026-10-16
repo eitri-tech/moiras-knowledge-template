@@ -1,14 +1,15 @@
 ---
 id: acme-shop-checkout
-tipo: repositorio
+type: repository
 url: https://github.com/<org>/acme-shop-checkout
-caminho_local:
-plataforma: vtex | wake | shopify | outra
+local_path:
+platform: vtex | wake | shopify | other
 apps: [home, pdp, cart, checkout, account]
-palavras_chave: [carrinho, checkout, frete]
-dono: <time ou pessoa>
-indexado_em: AAAA-MM-DD
-hash_fontes: sha256:<hash dos arquivos lidos>
+keywords: [carrinho, checkout, frete]
+owner: <time ou pessoa>
+agency:
+indexed_at: AAAA-MM-DD
+sources_hash: sha256:<hash dos arquivos lidos>
 ---
 
 # acme-shop-checkout
