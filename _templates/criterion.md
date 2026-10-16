@@ -2,6 +2,7 @@
 id: origem-troca-de-seller
 type: criterion
 created_at: AAAA-MM-DD
+approved_by: <pessoa que confirmou na triagem>
 applies_to: category | origin | action | solutions
 replaces: []
 ---
