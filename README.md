@@ -37,7 +37,7 @@ Os modelos (`_templates/`) usam nomes fictícios (`acme-shop-checkout`, `PROJ-12
 
 ## Fluxo
 
-1. `moiras-sync` (opcional, sugerido): traz o que foi mergeado aqui para o knowledge local. Só traz, nunca envia.
-2. As Moiras triam e aprendem localmente; `moiras-index` atualiza o glossário quando um repositório novo aparece.
+1. `moiras-sync` (opcional, sugerido): traz o que foi mergeado aqui para o clone local, só avançando-o (`git merge --ff-only`). Nunca envia.
+2. As Moiras triam e aprendem localmente; `moiras-index` gera e atualiza o glossário a partir do código (com `sources_hash`) quando um repositório novo aparece ou muda.
 3. `moiras-audit` (quando alguém for revisar): aponta registros velhos, pendentes ou conflitantes e aplica ajustes só com o "sim" de quem audita. Altera o knowledge local; para levar o ajuste para cá, siga para o passo 4.
-4. `moiras-publish`: abre um PR aqui com o que é novo. Nunca faz push direto na `main` e nunca faz merge sozinho.
+4. `moiras-publish`: confere cada registro com `scripts/knowledge.ts check` (do plugin) e abre um PR aqui, num branch `moiras/publish-<id>`, com o que é novo. Nunca faz push direto na `main` e nunca faz merge sozinho.
