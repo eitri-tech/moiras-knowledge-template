@@ -11,7 +11,7 @@ Cada repositório de knowledge tem um escopo. Exemplos:
 | Escopo | Exemplo | O que guarda |
 |---|---|---|
 | Projeto | `knowledge-acme-shop` | Glossário dos repositórios de um projeto e o que se aprendeu nele |
-| Grupo de projetos | `knowledge-acme-group` | O que vale para todos os projetos de um mesmo tipo (ex.: todos feitos na mesma plataforma): problemas recorrentes, critérios, soluções |
+| Grupo de projetos | `knowledge-acme-group` | O que vale para todos os projetos de um mesmo tipo: problemas recorrentes, critérios, soluções |
 | Global | `knowledge-time` | Critérios e decisões que valem para tudo |
 
 As Moiras sempre trabalham com o knowledge local. Os repositórios de knowledge servem para sincronizar e mesclar o que cada pessoa aprendeu; usar um deles é opcional.

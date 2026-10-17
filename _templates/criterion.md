@@ -1,8 +1,8 @@
 ---
-id: origem-troca-de-seller
+id: origin-seller-switch
 type: criterion
 created_at: AAAA-MM-DD
-approved_by: <pessoa que aprovou na triagem ou na auditoria>
+approved_by: <pseudônimo não identificável escolhido pela pessoa, no formato <prefixo>-<id> (ex. reviewer-01); nunca nome real, e-mail ou identificador de conta>
 applies_to: category | origin | action | solutions
 replaces: []
 ---

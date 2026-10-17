@@ -6,7 +6,7 @@ local_path:
 platform: vtex | wake | shopify | other
 apps: [home, pdp, cart, checkout, account]
 keywords: [carrinho, checkout, frete]
-owner: <time ou pessoa>
+owner: <time (ex. @org/time), de index.repositories[].owner ou do CODEOWNERS; nunca uma pessoa>
 agency:
 indexed_at: AAAA-MM-DD
 sources_hash: sha256:<hash dos arquivos lidos>
@@ -19,4 +19,4 @@ Uma ou duas frases sobre o que este repositório faz e para quem.
 ## Componentes
 
 - `checkout`: `src/views/checkout/`
-- `carrinho`: `src/views/cart/`
+- `cart`: `src/views/cart/`

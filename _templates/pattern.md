@@ -1,5 +1,5 @@
 ---
-id: carrinho-perde-itens-troca-seller
+id: cart-loses-items-seller-switch
 type: pattern
 created_at: AAAA-MM-DD
 repositories: [acme-shop-checkout]
