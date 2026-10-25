@@ -9,6 +9,7 @@ repositories: [acme-shop-checkout]
 component: checkout
 category: bug
 confidence: 70
+reference_url: https://github.com/<org>/acme-shop-checkout/pull/12
 result: pending | resolved | not-resolved
 ---
 
