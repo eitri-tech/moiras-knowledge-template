@@ -9,6 +9,9 @@ keywords: [carrinho, checkout, frete]
 owner: <time (ex. @org/time), de index.repositories[].owner ou do CODEOWNERS; nunca uma pessoa>
 agency:
 indexed_at: AAAA-MM-DD
+indexed_commit: <SHA completo do HEAD lido; omita os três campos de proveniência se não houver Git>
+indexed_commit_date: AAAA-MM-DD
+indexed_dirty: false
 sources_hash: sha256:<hash dos arquivos lidos>
 ---
 
